@@ -1,7 +1,9 @@
+import Main from "@/Home/Main/page"; 
 import Link from "next/link";
 import { FaRegMoon } from "react-icons/fa";
-export default function Header() {
+export default function Home() {
   return (
+    <div>
     <nav className="w-full py-4">
       <div className="container mx-auto flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-y-0 sm:justify-between sm:items-center px-4">
         <h2 className="text-2xl text-blue-600 font-bold">TS.</h2>
@@ -18,5 +20,8 @@ export default function Header() {
         </div>
       </div>
     </nav>
+    <Main />
+  </div>
+    
   );
 }

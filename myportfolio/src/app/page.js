@@ -1,8 +1,8 @@
-import Header from "@/Header/page";
+import HomePage from "@/Home/page";
 export default function Home() {
   return (
     <div>
-      <Header />
+      <HomePage />
     </div>
   );
 }
