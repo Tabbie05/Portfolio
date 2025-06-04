@@ -5,7 +5,7 @@ import { CiMail } from "react-icons/ci";
 
 const Main = () => {
     return (
-        <div className="flex flex-col lg:flex-row items-center justify-center text-white px-8 lg:px-20 gap-0 max-w-7xl mx-auto mt-10">
+        <div className="h-screen w-full flex flex-col lg:flex-row items-center justify-center text-white px-8 lg:px-20 gap-0 max-w-7xl mx-auto">
             {/* Left content */}
             <div className="max-w-xl w-full">
                 <h2 className="text-4xl sm:text-5xl font-bold leading-tight">
