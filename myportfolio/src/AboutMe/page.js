@@ -51,7 +51,7 @@ const AboutMe = () => {
           </div>
         </div>
 
-        <div className="font-bold flex flex-col items-center lg:items-start">
+        <div className="font-bold flex flex-col ml-9 items-center lg:items-start">
           <div className="relative rounded-full h-50 w-50 bg-black -mt-9">
             <div className="absolute bottom-2 right-1 rounded-lg bg-blue-600 text-white w-20 text-center text-sm">
               8.5 CGPA
