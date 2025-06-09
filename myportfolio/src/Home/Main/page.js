@@ -35,7 +35,7 @@ const Main = () => {
                         rel="noopener noreferrer"
                         aria-label="GitHub"
                     >
-                        <FaGithub size={24} className="hover:text-blue-600 transition-colors" />
+                        <FaGithub size={30} className="hover:text-blue-600 transition-colors hover:rotate-[4deg]" />
                     </a>
                     <a
                         href="https://www.linkedin.com/in/yourusername"
@@ -43,10 +43,10 @@ const Main = () => {
                         rel="noopener noreferrer"
                         aria-label="LinkedIn"
                     >
-                        <FaLinkedinIn size={24} className="hover:text-blue-600 transition-colors" />
+                        <FaLinkedinIn size={30} className="hover:text-blue-600 transition-colors hover:rotate-[4deg]" />
                     </a>
                     <a href="mailto:shaikhtayba3@gmail.com" aria-label="Email">
-                        <CiMail size={24} className="hover:text-blue-600 transition-colors" />
+                        <CiMail size={30} className="hover:text-blue-600 transition-colors hover:rotate-[4deg]" />
                     </a>
                 </div>
             </div>
