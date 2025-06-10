@@ -1,6 +1,4 @@
-import ProjectCard from "./ProjectCard/page";
-
-// components/Projects.jsx
+import ProjectCard from "@/app/Projects/ProjectCard/page";
 
 const Projects = () => {
   const projects = [
@@ -8,22 +6,22 @@ const Projects = () => {
       name: "Memories",
       description:
         "A full-stack application enabling users to share and manage their memories through posts, featuring authentication and CRUD operations.",
-      techUsed: ["MERN","Zustand", "JWT Auth", "Material-UI"],
-      link : "https://github.com/Tabbie05/Memories"
+      techUsed: ["MERN", "Zustand", "JWT Auth", "Material-UI"],
+      link: "https://github.com/Tabbie05/Memories",
     },
     {
       name: "Blog",
       description:
         "A minimalist blogging platform built with React and Tailwind CSS, offering a clean and responsive user interface.",
       techUsed: ["React", "Tailwind CSS", "Vite", "ESLint"],
-      link:"https://github.com/Tabbie05/blog"
+      link: "https://github.com/Tabbie05/blog",
     },
     {
       name: "React E-Commerce Store",
       description:
         "A modern e-commerce site with product listing, cart functionality, user authentication, and responsive design.",
       techUsed: ["React", "API", "Tailwind CSS", "React Router"],
-      link:"https://github.com/Tabbie05/React-store"
+      link: "https://github.com/Tabbie05/React-store",
     },
   ];
 

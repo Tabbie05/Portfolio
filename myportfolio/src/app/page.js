@@ -1,13 +1,13 @@
-import AboutMe from "@/AboutMe/page";
-import Contact from "@/Contact/page";
-import Footer from "@/Footer/Page";
-import HomePage from "@/Home/page";
-import Projects from "@/Projects/page";
-import Skills from "@/Skills/page";
+import AboutMe from "@/app/AboutMe/page";
+import Contact from "@/app/Contact/page";
+import Projects from "@/app/Projects/page";
+import Skills from "@/app/Skills/page";
+import  Main  from "@/Components/Main";
+import Footer from "@/Components/Footer";
 export default function Home() {
   return (
     <div>
-      <HomePage />
+      <Main />
       <AboutMe />
       <Projects />
       <Skills />
