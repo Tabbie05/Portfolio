@@ -1,6 +1,14 @@
+"use client";
+
 import ProjectCard from "@/app/Projects/ProjectCard/page";
+import { useTheme } from "@/app/Context/ThemeContext";
 
 const Projects = () => {
+  const { isDark } = useTheme();
+
+  const textPrimary = isDark ? "text-white" : "text-black";
+  const textSecondary = isDark ? "text-gray-400" : "text-gray-700";
+
   const projects = [
     {
       name: "Memories",
@@ -27,9 +35,9 @@ const Projects = () => {
 
   return (
     <section className="px-4 sm:px-8 py-10 max-w-7xl mx-auto text-start">
-      <h2 className="text-5xl font-bold mb-2">Projects</h2>
+      <h2 className={`text-5xl font-bold mb-2 ${textPrimary}`}>Projects</h2>
       <div className="border-b-4 border-blue-600 w-20 mb-6"></div>
-      <p className="text-gray-400 max-w-xl mb-10">
+      <p className={`max-w-xl mb-10 ${textSecondary}`}>
         Here are some of the projects I've worked on, showcasing my skills in
         various technologies and problem domains.
       </p>
