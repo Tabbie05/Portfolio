@@ -5,15 +5,13 @@ import { IoCallOutline } from "react-icons/io5";
 import { CiLocationOn } from "react-icons/ci";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { useTheme } from "@/app/Context/ThemeContext";
+import ContactForm from "@/Components/ContactForm"; // ✅ Make sure this path is correct
 
 const Contact = () => {
   const { isDark } = useTheme();
 
-  // Conditional colors based on theme
   const textPrimary = isDark ? "text-white" : "text-black";
   const textSecondary = isDark ? "text-gray-300" : "text-gray-700";
-  const inputBg = isDark ? "bg-gray-800" : "bg-gray-100";
-  const inputBorder = isDark ? "border-gray-700" : "border-gray-300";
   const sectionBg = isDark ? "bg-black" : "bg-white";
   const iconBg = isDark ? "bg-gray-600" : "bg-gray-300";
   const iconHoverBg = "hover:bg-blue-400 hover:text-black";
@@ -57,7 +55,7 @@ const Contact = () => {
               <CiLocationOn size={22} color="blue" />
               <div className="flex flex-col">
                 <span className={`font-semibold ${textPrimary}`}>Location:</span>
-                <span>Mumbai India</span>
+                <span>Mumbai, India</span>
               </div>
             </li>
           </ul>
@@ -85,9 +83,7 @@ const Contact = () => {
               <FaGithub size={25} className="mt-1.5" />
             </a>
             <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:shaikhtayba3@gmail.com"
               className={`rounded-full ${iconBg} flex items-center justify-center h-10 w-10 ${iconHoverBg}`}
               aria-label="Email"
             >
@@ -96,37 +92,10 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Contact Form */}
-        <form className="space-y-5 mr-[50px]">
-          {[
-            { label: "Your Name", type: "text", placeholder: "John Doe" },
-            { label: "Your Email", type: "email", placeholder: "john@example.com" },
-            { label: "Subject", type: "text", placeholder: "How can I help you?" },
-          ].map(({ label, type, placeholder }) => (
-            <div key={label}>
-              <label className={`block mb-1 text-sm ${textPrimary}`}>{label}</label>
-              <input
-                type={type}
-                placeholder={placeholder}
-                className={`w-full px-4 py-2 ${inputBg} border ${inputBorder} rounded focus:outline-none focus:border-blue-500 ${textPrimary}`}
-              />
-            </div>
-          ))}
-          <div>
-            <label className={`block mb-1 text-sm ${textPrimary}`}>Message</label>
-            <textarea
-              rows="5"
-              placeholder="Your message here..."
-              className={`w-full px-4 py-2 ${inputBg} border ${inputBorder} rounded focus:outline-none focus:border-blue-500 ${textPrimary}`}
-            ></textarea>
-          </div>
-          <button
-            type="submit"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded transition-all duration-200"
-          >
-            Send
-          </button>
-        </form>
+        {/* Contact Form Component */}
+        <div className="mr-[50px]">
+          <ContactForm />
+        </div>
       </div>
     </section>
   );

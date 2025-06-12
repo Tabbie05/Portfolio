@@ -50,7 +50,7 @@ const Main = () => {
         </p>
 
         <div className="flex flex-wrap gap-4 mt-6">
-          <button className={btnPrimary}>CONTACT ME</button>
+          <Link href='/Contact'> <button className={btnPrimary}>CONTACT ME</button></Link>
           <Link href="/Projects"><button className={btnSecondary}>VIEW PROJECTS</button></Link>
         </div>
 

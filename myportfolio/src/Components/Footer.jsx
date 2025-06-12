@@ -27,7 +27,7 @@ const Footer = () => {
 
         {/* Right Side: Social Icons and Copyright */}
         <div className={`text-center md:text-right`}>
-          <div className="flex justify-center md:justify-end gap-4 mb-3">
+          <div className="flex justify-center md:justify-end gap-4 ">
             <a
               href="https://github.com/Tabbie05"
               target="_blank"
