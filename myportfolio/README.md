@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💼 Tayba Shaikh — Developer Portfolio
 
-## Getting Started
+Welcome to my personal portfolio website! This project showcases my work, experience, and skills in web development. Built with [Next.js](https://nextjs.org), it's optimized for performance, accessibility, and responsiveness.
 
-First, run the development server:
+## 🌐 Live Site
+
+▶️ [Visit Portfolio](https://tsportfolio-sigma.vercel.app)
+
+---
+
+## 📌 Features
+
+- 🌙 **Dark/Light Theme Toggle** with Context API
+- 📧 **Contact Form** powered by [EmailJS](https://www.emailjs.com/)
+- 📱 **Fully Responsive** layout for all devices
+- ⚡ **Fast performance** with Next.js App Router
+- 🧠 **Reusable Components** and clean project structure
+- 📄 Resume download option directly on the site
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 14](https://nextjs.org)
+- **Language**: JavaScript (ES6+)
+- **Styling**: Tailwind CSS
+- **Icons**: React Icons
+- **Forms**: EmailJS
+- **Deployment**: [Vercel](https://vercel.com)
+
+---
+
+## 🚀 Getting Started Locally
+
+### 1. Clone the repository
 
 ```bash
+git clone https://github.com/Tabbie05/Portfolio.git
+cd Portfolio
+
+
+Install dependencies
+npm install
+# or
+yarn install
+
+Set up environment variables
+Create a .env.local file in the root directory and add your EmailJS credentials:
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+
+Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
