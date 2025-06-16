@@ -65,7 +65,7 @@ const Contact = () => {
           </h4>
           <div className="flex space-x-4 text-2xl">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/tayba-shaikh-340448319"
               target="_blank"
               rel="noopener noreferrer"
               className={`rounded-full ${iconBg} flex items-center justify-center h-10 w-10 ${iconHoverBg}`}
@@ -74,7 +74,7 @@ const Contact = () => {
               <FaLinkedinIn size={25} className="mt-1.5" />
             </a>
             <a
-              href="#"
+              href="https://github.com/Tabbie05"
               target="_blank"
               rel="noopener noreferrer"
               className={`rounded-full ${iconBg} flex items-center justify-center h-10 w-10 ${iconHoverBg}`}

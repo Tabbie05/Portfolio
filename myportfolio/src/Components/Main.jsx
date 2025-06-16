@@ -3,6 +3,7 @@
 import React from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
+import { SiLeetcode } from "react-icons/si";
 import { useTheme } from "@/app/Context/ThemeContext";
 import Link from "next/link";
 
@@ -110,7 +111,7 @@ const Main = () => {
         >
           <code>
             <span className="text-pink-400">const</span>{" "}
-            <span className="text-blue-400">developer</span>{" "}
+            <span className="text-blue-400">developer =</span>{" "}
             <span className="text-orange-400">&#123;</span>
             <br />
             &nbsp;&nbsp;
