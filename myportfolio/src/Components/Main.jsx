@@ -94,7 +94,7 @@ const Main = () => {
            <a href="https://www.geeksforgeeks.org/user/tayba_s/" aria-label="Email">
             <SiGeeksforgeeks
               size={40}
-              className={`${iconHoverColor} transition-colors hover:rotate-[4deg]`}
+              className={`${iconHoverColor} transition-colors hover:rotate-[4deg] mb-4`}
             />
           </a>
 
