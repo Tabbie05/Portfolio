@@ -85,7 +85,7 @@ const AboutMe = () => {
         <div className="w-full lg:w-[35%] flex flex-col items-center lg:items-start ">
           {/* Container to hold image and badge */}
           <div className="relative w-40 h-40">
-            <div className="rounded-full overflow-hidden h-40 w-40">
+            <div className="rounded-full overflow-hidden h-40 w-40 border-6 border-white">
               <Image
                 src="/TS.jpg"
                 alt="TS Monogram"

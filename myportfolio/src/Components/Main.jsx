@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 import { SiLeetcode } from "react-icons/si";
 import { useTheme } from "@/app/Context/ThemeContext";
+import { SiGeeksforgeeks } from "react-icons/si";
 import Link from "next/link";
 
 const Main = () => {
@@ -84,6 +85,19 @@ const Main = () => {
               className={`${iconHoverColor} transition-colors hover:rotate-[4deg]`}
             />
           </a>
+          <a href="https://leetcode.com/u/shaikh_tayba/" aria-label="Email">
+            <SiLeetcode
+              size={30}
+              className={`${iconHoverColor} transition-colors hover:rotate-[4deg]`}
+            />
+          </a>
+           <a href="https://www.geeksforgeeks.org/user/tayba_s/" aria-label="Email">
+            <SiGeeksforgeeks
+              size={40}
+              className={`${iconHoverColor} transition-colors hover:rotate-[4deg]`}
+            />
+          </a>
+
         </div>
       </div>
 
