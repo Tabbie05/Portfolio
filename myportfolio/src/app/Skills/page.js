@@ -64,7 +64,7 @@ const Skills = () => {
       </h2>
       <div className="border-b-4 border-blue-600 w-20 mb-4"></div>
       <p className={`text-lg max-w-2xl mb-8 ${textSecondary}`}>
-        I've worked with a range of technologies in the web development world, from frontend to backend and everything in between.
+       I&apos;ve  worked with a range of technologies in the web development world, from frontend to backend and everything in between.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

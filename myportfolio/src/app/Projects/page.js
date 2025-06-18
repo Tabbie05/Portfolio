@@ -38,7 +38,7 @@ const Projects = () => {
       <h2 className={`text-5xl font-bold mb-2 ${textPrimary}`}>Projects</h2>
       <div className="border-b-4 border-blue-600 w-20 mb-6"></div>
       <p className={`max-w-xl mb-10 ${textSecondary}`}>
-        Here are some of the projects I've worked on, showcasing my skills in
+        Here are some of the projects I&apos;ve worked on, showcasing my skills in
         various technologies and problem domains.
       </p>
 

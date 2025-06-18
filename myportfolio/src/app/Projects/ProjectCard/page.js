@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 
 const ProjectCard = ({ project, isDark }) => {
+  if (!project) return null
   const { name, description, techUsed, link } = project;
 
   // Dark/light theme classes
