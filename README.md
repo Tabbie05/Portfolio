@@ -36,7 +36,7 @@ Welcome to my personal portfolio website! This project showcases my work, experi
 
 ```bash
 git clone https://github.com/Tabbie05/Portfolio.git
-cd Portfolio
+cd .\Portfolio\myportfolio\
 
 
 Install dependencies
