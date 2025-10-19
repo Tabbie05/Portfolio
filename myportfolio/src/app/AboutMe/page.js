@@ -125,8 +125,8 @@ const AboutMe = () => {
           </div>
 
           <a
-            href="/tayba_resume.pdf"
-            download="tayba_resume.pdf"
+            href="/Shaikh_Tayba_CV.pdf"
+            download="Shaikh_Tayba_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Download Resume"
