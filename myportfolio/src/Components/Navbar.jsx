@@ -91,8 +91,8 @@ function ThemeToggle({ isDark, toggleTheme }) {
 function ResumeButton({ isDark }) {
   return (
     <a
-      href="/Shaikh_Tayba_CV.pdf"            
-      download="Shaikh_Tayba_CV.pdf"
+      href="/Shaikh_Tayba_Resume.pdf"            
+      download="Shaikh_Tayba_Resume.pdf"
       className={`px-4 py-2 rounded transition-colors duration-300 ${
         isDark
           ? "bg-blue-600 text-white hover:bg-blue-700"
