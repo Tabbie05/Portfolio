@@ -45,10 +45,10 @@ const Main = () => {
           </span>
         </h2>
         <h3 className={`${textSecondary} text-xl mt-2`}>
-          Full Stack Developer and Graphic Designer
+           Full Stack & Mobile Developer | UI/UX Enthusiast
         </h3>
         <p className={`${textSecondary} text-lg font-semibold mt-2 max-w-lg`}>
-          Building elegant solutions to complex problems with modern technologies.
+          Building elegant web and mobile applications with React, React Native, Node.js, .NET, and Python — crafting seamless user experiences and scalable solutions.
         </p>
 
         <div className="flex flex-wrap gap-4 mt-6">
@@ -97,7 +97,6 @@ const Main = () => {
               className={`${iconHoverColor} transition-colors hover:rotate-[4deg] mb-4`}
             />
           </a>
-
         </div>
       </div>
 
@@ -137,14 +136,17 @@ const Main = () => {
             <span className="text-orange-400">[</span>
             <span className="text-green-400">'React'</span>,{" "}
             <span className="text-green-400">'Node.js'</span>,{" "}
-            <span className="text-green-400">'Python'</span>
+            <span className="text-green-400">'Python'</span>,{" "}
+            <span className="text-green-400">'.NET'</span>,{" "}
+            <span className="text-green-400">'React Native'</span>
             <span className="text-orange-400">]</span>,
             <br />
             &nbsp;&nbsp;
             <span className="text-purple-400">focuses</span>:{" "}
             <span className="text-orange-400">[</span>
             <span className="text-green-400">'Full-Stack'</span>,{" "}
-            <span className="text-green-400">'UI/UX'</span>
+            <span className="text-green-400">'UI/UX'</span>,{" "}
+            <span className="text-green-400">'Mobile Development'</span>
             <span className="text-orange-400">]</span>,
             <br />
             &nbsp;&nbsp;

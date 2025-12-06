@@ -11,25 +11,40 @@ const Projects = () => {
 
   const projects = [
     {
-      name: "Memories",
+      name: "SecureNote",
       description:
-        "A full-stack application enabling users to share and manage their memories through posts, featuring authentication and CRUD operations.",
-      techUsed: ["MERN", "Zustand", "JWT Auth", "Material-UI"],
-      link: "https://github.com/Tabbie05/Memories",
+        "A full-stack MERN note-taking app that lets users create, edit, and delete encrypted notes. User can make the notes Destroyed after certain time. Features Context API for state management, MUI for sleek UI, Formik for forms, Axios for API calls, NodeMailer for notifications, and an Emoji Picker for fun. Real-time sync ensures notes are always up to date.",
+      techUsed: ["MERN", "Context API", "MUI", "Formik", "Axios", "NodeMailer"],
+      link: "https://github.com/Tabbie05/SecureNote",
+      images: [
+        "/securenote1.PNG",
+        "/securenote2.PNG",
+        "/securenote3.JPG"
+      ]
     },
     {
-      name: "Blog",
+      name: "ReadMe Generator",
       description:
-        "A minimalist blogging platform built with React and Tailwind CSS, offering a clean and responsive user interface.",
-      techUsed: ["React", "Tailwind CSS", "Vite", "ESLint"],
-      link: "https://github.com/Tabbie05/blog",
+        "A developer tool to auto-generate professional README files with a drag-and-drop customizable interface. Built with Tailwind CSS, Markdown, Monaco Editor, Zustand, and Context API. Users can reorder sections, add custom buttons, and see live previews. User can copy raw-code and download ReadME.md file in just one click.",
+      techUsed: ["Tailwind CSS", "Markdown", "Monaco Editor", "Zustand", "Context API"],
+      link: "https://github.com/Tabbie05/ReadMe_Generator",
+      images: [
+        "/README1.JPG",
+        "/README2.JPG",
+        "/README3.JPG"
+      ]
     },
     {
-      name: "React E-Commerce Store",
+      name: "Expense‑Tracker",
       description:
-        "A modern e-commerce site with product listing, cart functionality, user authentication, and responsive design.",
-      techUsed: ["React", "API", "Tailwind CSS", "React Router"],
-      link: "https://github.com/Tabbie05/React-store",
+        "A personal finance app that tracks income and expenses with dynamic charts. Uses Redux for state, Tailwind CSS for UI, and Chart.js to display spending in a red pie chart and income in a green pie chart. Helps users visualize budgets and manage finances effectively.",
+      techUsed: ["React", "Redux", "Tailwind CSS", "Chart.js"],
+      link: "https://github.com/Tabbie05/Expense-Tracker",
+      images: [
+        "/expense1.JPG",
+        "/expense2.JPG",
+        "/expense3.JPG"
+      ]
     },
   ];
 
@@ -42,9 +57,9 @@ const Projects = () => {
         various technologies and problem domains.
       </p>
 
-      <div className="flex flex-wrap gap-6 justify-start">
+      <div className="flex flex-wrap gap-8 justify-start">
         {projects.map((project) => (
-          <ProjectCard key={project.name} project={project} />
+          <ProjectCard key={project.name} project={project} isDark={isDark} />
         ))}
       </div>
     </section>

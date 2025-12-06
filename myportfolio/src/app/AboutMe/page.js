@@ -35,11 +35,9 @@ const AboutMe = () => {
             <h3 className={`${textPrimary} text-xl font-semibold`}>Bio</h3>
           </div>
           <p className={`${textSecondary} text-base leading-relaxed`}>
-            BSc Computer Science student with a strong passion for web
-            development and AI. Skilled in the MERN stack and always exploring
-            innovative ways to solve real-world problems. Focused on building
-            impactful, user-friendly applications and growing into a top-tier
-            developer.
+            BSc Computer Science student passionate about web and mobile development, MERN stack, and AI-powered solutions. 
+            Skilled at turning complex problems into elegant, user-friendly applications, with a keen eye for performance, scalability, and responsive design. 
+            Always exploring innovative ways to build impactful software that delights users.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -68,15 +66,15 @@ const AboutMe = () => {
                 </h4>
               </div>
               <p className={`${textPrimary} text-sm font-medium`}>
-                Web Project Intern
+                Frontend Developer — Imagogeeter.com (Internship)
               </p>
-              <span className={`${textSecondary}`}>2025 - present</span>
-              <p className={`${textSecondary} text-sm mt-1`}>
-                Spearheaded website performance audits and implemented key
-                improvements to boost page speed by over 40%. Acted as the SPOC
-                between Walnut and the web agency, contributing strategic
-                insights on UI/UX, responsiveness, and SEO-driven enhancements.
-              </p>
+              <span className={`${textSecondary}`}>May 2025 – Aug 2025</span>
+              <ul className={`${textSecondary} text-sm mt-2 list-disc list-inside`}>
+                <li>Boosted website performance and responsiveness, improving Lighthouse-style metrics by ~25%.</li>
+                <li>Developed reusable, consistent UI components achieving 90%+ design alignment.</li>
+                <li>Implemented smooth animations and lightweight interactions, increasing user engagement by 10–20%.</li>
+                <li>Collaborated with team leads to optimize workflows and provide strategic UI/UX enhancements.</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -94,7 +92,6 @@ const AboutMe = () => {
                 style={{ objectFit: "cover" }}
                 priority
                 sizes="160px"
-
               />
             </div>
 
@@ -109,12 +106,12 @@ const AboutMe = () => {
               Tayba Shaikh
             </div>
             <div className={`${profileTextSecondary}`}>
-              Software Engineer Student
+              Full Stack & Mobile Developer
             </div>
           </div>
 
           <div className="flex flex-wrap gap-2 mt-4 justify-center lg:justify-start">
-            {["React", "NextJS", "UI/UX", "Node"].map((skill) => (
+            {["React", "React Native", "Node", "NextJS"].map((skill) => (
               <div
                 key={skill}
                 className={`rounded-lg ${skillBg} ${skillText} text-sm px-3 py-1`}
@@ -125,8 +122,8 @@ const AboutMe = () => {
           </div>
 
           <a
-            href="/Shaikh_Tayba_CV.pdf"
-            download="Shaikh_Tayba_CV.pdf"
+            href="/Shaikh_Tayba_Resume.pdf"
+            download="Shaikh_Tayba_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Download Resume"
@@ -135,7 +132,6 @@ const AboutMe = () => {
             <FaDownload size={15} />
             Download Resume
           </a>
-
         </div>
       </div>
     </section>
